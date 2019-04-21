@@ -21,7 +21,7 @@ client.on('ready', () => {
 var perfix ="!"
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "bco)) {
+            if (message.content.startsWith(prefix + "bco")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
